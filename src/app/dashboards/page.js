@@ -39,6 +39,7 @@ export default function DashboardPage() {
       setError('Failed to load API keys');
       console.error(err);
     } finally {
+      // setIsLoading(false);
       setIsLoading(false);
     }
   };
